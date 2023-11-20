@@ -1,4 +1,4 @@
-# Layers - Open Source Project Management and Issue Tracking
+# Layers - Open Source Project Management and Issue Tracking System
 
 Layers is a powerful, open-source alternative to traditional project management and issue tracking systems. Designed to enhance collaboration and streamline workflows, Layers provides a feature-rich platform for teams to manage projects, track issues, and boost overall productivity.
 

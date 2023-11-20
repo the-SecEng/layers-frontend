@@ -328,8 +328,8 @@ const toggleDarkMode = () => {
   <div class="flex items-center justify-center min-h-screen">
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
-          <img v-if="isDarkMode === false" class="rounded-t-lg" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0372a9b8-a2fb-43eb-bd96-8bd4454f4e15/desj9lk-a98e09a7-3728-405e-98ba-f0104e33678c.jpg/v1/fill/w_1000,h_800,q_70,strp/dusk_by_nuhanotion_desj9lk-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzAzNzJhOWI4LWEyZmItNDNlYi1iZDk2LThiZDQ0NTRmNGUxNVwvZGVzajlsay1hOThlMDlhNy0zNzI4LTQwNWUtOThiYS1mMDEwNGUzMzY3OGMuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.eOzxRBCbjspW5kA64Mt70PqD09HlTpSpYAYDxgonum8" alt="" />
-          <img v-else class="rounded-t-lg" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/del3t3e-ca6ff059-15fc-4c2a-8ac1-36c46e5f7876.jpg/v1/fill/w_1192,h_670,q_70,strp/driving_alone_by_bisbiswas_del3t3e-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGVsM3QzZS1jYTZmZjA1OS0xNWZjLTRjMmEtOGFjMS0zNmM0NmU1Zjc4NzYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0rX0ovrqlgAZLRnmFzfB3U7BkDqYdWmiI83IeIL8MEw" alt="" />
+          <img v-if="isDarkMode === false" class="rounded-t-lg" src="../main/day.jpg" alt="Daylight Image" />
+          <img v-else class="rounded-t-lg" src="../main/night.jpg" alt="Night Image" />
       </a>
       <div class="p-5">
           <a href="#">
