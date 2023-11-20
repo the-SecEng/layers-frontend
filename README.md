@@ -37,13 +37,13 @@ For detailed instructions, please refer to the documentation.
 
 ## Contributing
 
-Layers welcomes contributions from the community. If you'd like to contribute, please follow our [contribution guidelines].
+Layers welcomes contributions from the community. If you'd like to contribute, please follow our [https://github.com/goktugerol-dev/layers-frontend/blob/main/CONTRIBUTING.md].
 
 ## License
 
 Layers is licensed under the [GPL-3.0 License]. See the [LICENSE] file for details.
 
-[documentation]: # (Link to your documentation)
-[contribution guidelines]: /CONTRIBUTING in the root of the project.
-[GPL-3.0 License]: https://opensource.org/licenses/GPL-3.0
-[LICENSE]: /LICENSE
+documentation: 
+contribution guidelines: [https://github.com/goktugerol-dev/layers-frontend/blob/main/CONTRIBUTING.md] in the root of the project.
+GPL-3.0 License: https://opensource.org/licenses/GPL-3.0
+LICENSE: [https://github.com/goktugerol-dev/layers-frontend/blob/main/LICENSE]
