@@ -33,19 +33,19 @@ const toggleDarkMode = () => {
 
     <!-- drawer component -->
     <div id="drawer-navigation"
-      class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-64 dark:bg-gray-800"
+      class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-34 dark:bg-gray-800"
       tabindex="-1" aria-labelledby="drawer-navigation-label">
       <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu
       </h5>
       <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
-        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white">
+        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm font-inter w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white">
         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
         </svg>
         <span class="sr-only">Close menu</span>
       </button>
-      <div class="py-4 overflow-y-auto">
+      <div class="py-4 overflow-y-auto text-xs">
         <ul class="space-y-2 font-medium">
           <li>
             <a href="#"
@@ -71,7 +71,7 @@ const toggleDarkMode = () => {
                 <path
                   d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
               </svg>
-              <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">E-commerce</span>
+              <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap text-xs font-inter">Projects</span>
               <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="m1 1 4 4 4-4" />
@@ -103,7 +103,7 @@ const toggleDarkMode = () => {
               </svg>
               <span class="flex-1 ms-3 whitespace-nowrap">Kanban</span>
               <span
-                class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
+                class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Coming Soon</span>
             </a>
           </li>
           <li>
@@ -264,7 +264,7 @@ const toggleDarkMode = () => {
                 d="M5 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1M2 5h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm8 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
             </svg>
           </div>
-          <div class="font-medium text-center text-gray-500 dark:text-gray-400">Price</div>
+          <div class="font-medium text-center text-gray-500 dark:text-gray-400">Budget</div>
         </div>
         <div class="p-4 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 dark:hover:bg-gray-600 dark:bg-gray-700">
           <div
