@@ -43,7 +43,7 @@ Layers welcomes contributions from the community. If you'd like to contribute, p
 
 Layers is licensed under the [GPL-3.0 License]. See the [LICENSE] file for details.
 
-documentation: 
-contribution guidelines: [https://github.com/goktugerol-dev/layers-frontend/blob/main/CONTRIBUTING.md] in the root of the project.
-GPL-3.0 License: https://opensource.org/licenses/GPL-3.0
-LICENSE: [https://github.com/goktugerol-dev/layers-frontend/blob/main/LICENSE]
+- documentation: 
+- contribution guidelines: [https://github.com/goktugerol-dev/layers-frontend/blob/main/CONTRIBUTING.md] in the root of the project.
+- GPL-3.0 License: https://opensource.org/licenses/GPL-3.0
+- LICENSE: [https://github.com/goktugerol-dev/layers-frontend/blob/main/LICENSE]
